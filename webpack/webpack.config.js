@@ -75,7 +75,9 @@ const config = {
       { test: /\.jpg$/, loader: 'url-loader?prefix=images/&limit=8000&mimetype=image/jpeg' },
       { test: /\.svg$/, loader: 'url-loader' },
       { test: /\.woff$/, loader: 'url-loader?prefix=fonts/&limit=8000&mimetype=application/font-woff' },
+      { test: /\.woff2$/, loader: 'url-loader?prefix=fonts/&limit=8000&mimetype=application/font-woff' },
       { test: /\.hbs$/, loader: 'handlebars-loader' },
+      { test: /\.tpl$/, loader: 'underscore-template-loader' },
       { test: /\.ttf$/, loader: 'file-loader?prefix=fonts/' },
       { test: /\.eot$/, loader: 'file-loader?prefix=fonts/' },
       { test: /\.json$/, loader: 'json-loader' }

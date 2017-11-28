@@ -72,11 +72,14 @@
     "postcss-loader": "^1.2.2",
     "postcss-nested": "^1.0.0",
     "raw-loader": "^0.5.1",
+    "semantic-ui-css": "^2.2.12",
     "serve": "^5.1.2",
     "style-loader": "^0.13.1",
+    "underscore-template-loader": "^0.8.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1",
     "webpack-bundle-analyzer": "^2.3.1",
-    "webpack-dotenv-plugin": "^2.0.0"
+    "webpack-dotenv-plugin": "^2.0.0",
+    "xss": "^0.3.4"
   }
 }

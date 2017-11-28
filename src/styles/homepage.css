@@ -2,20 +2,78 @@
   --background-color: #EEEEEE;
 }
 
-.homepage {
-  text-align: center;
+.weather_title{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  line-height: 1em;
+}
 
-  &__header {
-    background-color: var(--background-color);
-    height: 150px;
-    padding: 20px;
+.ui.image.weather__logo{
+  position: absolute;
+  top: 0px;
+  right: 30px;
 
-    >img {
-      width: 200px;
-    }
+}
+
+.ui.dashboard.segment {
+  position: relative;
+  background-image: url('../static/background-yellow.jpg');
+  min-height: 480px;
+}
+
+.ui.dashboard .form{
+  padding-top: 110px;
+}
+
+.socket__message{
+  pointer-events: none;
+
+  text-align: right;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+
+  &:hover {
+    color: #666;
+    cursor: default;
   }
+}
 
-  &__intro {
-    font-size: large;
+.temperature__message{
+  pointer-events: none;
+  
+  padding-top: 20px;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.temperature__city{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.temperature__max{
+  font-size: 16px;
+  & span{
+    padding: 5px;
+    font-weight: bold;
+    color: orange;
+    font-size: 24px;
+  }
+}
+
+.temperature__min{
+  font-size: 16px;
+  & span{
+    padding: 5px;
+    font-weight: bold;
+    color: cyan;
+    font-size: 24px;
   }
 }

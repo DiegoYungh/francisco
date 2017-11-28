@@ -1,17 +1,14 @@
-# Modern Backbone Starter-kit
+# Chico Weather Utility
 
-[![Gitter](http://img.shields.io/badge/chat-online-brightgreen.svg?style=flat)](https://gitter.im/sabarasaba/modern-backbone-starterkit)
-
-This project provides a prepared development environment for modern backbone
-development. ES6, Jest, HMR, css-next, eslint; all ready for you to use.
+Sample prototype to demonstrate the simplicity of Backbone to consume a REST API and emit Socket information.
+development. ES6, css-next, eslint, Backbone, Lodash, Marionette, Handlebars, Semantic-UI.
 
 
 ### Getting Started
 
-Just [clone](github-windows://openRepo/https://github.com/sabarasaba/modern-backbone-starterkit) or [fork](https://github.com/sabarasaba/modern-backbone-starterkit/fork) the repo and start hacking:
+Just [clone](github-windows://openRepo/https://github.com/DiegoYungh/francisco) or [fork](https://github.com/DiegoYungh/francisco/fork) the repo and start messing around:
 
 ```shell
-$ git clone https://github.com/sabarasaba/modern-backbone-starterkit.git AwesomeApp && cd $_
 $ yarn install
 $ cp .env.example .env
 ```
@@ -42,39 +39,6 @@ If you wanna serve the production app you can do so by running:
 $ yarn start
 ```
 
-### How to run tests
-
-You can easily run the unit tests by doing:
-
-```shell
-$ yarn test
-```
-
-Or check your code coverage with:
-
-```shell
-$ yarn coverage
-```
-
-### Linter
-Currently using airbnb's presets, you can run it with:
-
-```shell
-$ yarn lint
-```
-
-### How to Update
-
-You can always fetch and merge the recent changes from this repo back into
-your own project:
-
-```shell
-$ git checkout master
-$ git fetch upstream
-$ git merge upstream/master
-$ npm install
-```
-
 ### A Note on ES Classes
 ES2015 Classes do *not* work well with Backbone or Marionette at time of writing. See https://github.com/jashkenas/backbone/issues/3560. Use Backbone's built in extend functions to get around this for the time being.
 
@@ -86,7 +50,6 @@ ES2015 Classes do *not* work well with Backbone or Marionette at time of writing
  * [Handlebars](http://handlebarsjs.com/)
  * [Backbone.js](http://backbonejs.org/)
  * [Marionette.js](http://marionettejs.com/)
- * [Jest](https://facebook.github.io/jest/)
  * [Webpack](https://webpack.js.org/)
  * [Babel](https://babeljs.io/)
  * [css-next](http://cssnext.io/)
@@ -97,6 +60,8 @@ ES2015 Classes do *not* work well with Backbone or Marionette at time of writing
 Have feedback, feature request or need help? Create an issue !
 
 ## License
+
+This was made using a boilerplate project from [Ignacio Rivas](https://github.com/sabarasaba)
 
 The MIT License (MIT)
 
